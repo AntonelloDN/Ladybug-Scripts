@@ -1,5 +1,5 @@
 # Ladybug-Scripts
-Example of Python3 scripts using lbt-ladybug
+Example of Python3 scripts using [lbt-ladybug](https://github.com/ladybug-tools/ladybug)
 
 # Requirements
 <ul>
