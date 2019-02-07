@@ -10,7 +10,7 @@ def create_analysisPeriod(params):
 		
 		description: st_month, st_day, st_hour, end_month, end_day, end_hour.
 		1 is 1 AM
-		0 is 12 AM
+		0 is 12 PM
 		Eg. JAN 1st [1,1,1,1,2,0]
 	
     Args:
