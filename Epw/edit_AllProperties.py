@@ -31,7 +31,38 @@ def modify_epw(file_to_change, output_full_path, analysis_period, index, input_l
         file_to_change (string): Absolute path of the file.  E.g. C:\\...\\StartExample.epw
 		output_full_path (string): Absolute path of the new EPW to write. E.g. C:\\...\\OutExample.epw
 		analysis_period (AnalysisPeriod): AnalysisPeriod that indicate the interval where replace values
-		index (int): 0 for temperature OR 1 for relative_humidity
+		index (int): 
+			0 = years
+			1 = dry_bulb_temperature
+			2 = dew_point_temperature
+			3 = relative_humidity
+			4 = atmospheric_station_pressure
+			5 = extraterrestrial_horizontal_radiation
+			6 = extraterrestrial_direct_normal_radiation
+			7 = horizontal_infrared_radiation_intensity
+			8 = global_horizontal_radiation
+			9 = direct_normal_radiation
+			10 = diffuse_horizontal_radiation
+			11 = global_horizontal_illuminance
+			12 = direct_normal_illuminance
+			13 = diffuse_horizontal_illuminance
+			14 = zenith_luminance
+			15 = wind_direction
+			16 = wind_speed
+			17 = total_sky_cover
+			18 = opaque_sky_cover
+			19 = visibility
+			20 = ceiling_height
+			21 = present_weather_observation
+			22 = present_weather_codes
+			23 = precipitable_water
+			24 = aerosol_optical_depth
+			25 = snow_depth
+			26 = days_since_last_snowfall
+			27 = albedo
+			28 = liquid_precipitation_depth
+			29 = epw_data.liquid_precipitation_quantity
+			30 = epw_data.sky_temperature
 		input_list (list float): List of number to use in the new EPW in the specific AnalysisPeriod
 
     Returns:
