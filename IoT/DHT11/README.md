@@ -1,5 +1,9 @@
 A basic example to use Ladybug tools API with DHT11 sensor.
 
+![graph](https://github.com/AntonelloDN/Ladybug-Scripts/blob/master/IoT/DHT11/img/basicGraph.png)
+
+
+
 # Requirements
 <ul>
   <li>Python 3</li>
@@ -7,6 +11,7 @@ A basic example to use Ladybug tools API with DHT11 sensor.
   <li>matplotlib</li>
   <li>yaml</li>
 </ul>
+
 # How To Use
 <ol>
   <li>Install this library: [SimpleDHT] https://github.com/winlinvip/SimpleDHT</li>
@@ -17,4 +22,4 @@ A basic example to use Ladybug tools API with DHT11 sensor.
   <li>Improve the code :)</li>
 </ol>
 
-
+![schema](https://github.com/AntonelloDN/Ladybug-Scripts/blob/master/IoT/DHT11/img/imgSchema.jpg)
