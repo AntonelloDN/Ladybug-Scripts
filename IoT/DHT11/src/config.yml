@@ -1,0 +1,6 @@
+serial:
+    path: /dev/XXXXX 
+condition:
+    wind_speed: 0.05
+    metabolic_rate: 1.00
+    clothing_level: 0.50
